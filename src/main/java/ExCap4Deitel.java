@@ -2,18 +2,10 @@ import java.util.Scanner;
 
 public class ExCap4Deitel {
     public static void main(String[] args) {
-        int termos = buscaNumeroDeTermos("numero de termos para o calculo");
+        int termos = perguntaAoUsuarioRetornandoInt("Digite o numero de termos para o calculo");
         double termosDeEuler = termosDeEuler(termos);
-        System.out.printf(" e = %.10f", termosDeEuler);
-    }
+        imprimeResultadoNaTela("valor de e = ", termosDeEuler);
 
-    private static double termosDeEuler(int termos) {
-        double soma = 0;
-        for (int i = 0 ; i <= termos ; i++){
-            soma +=(1/(double)fatorial(i));
-        }
-
-        return soma;
     }
 
     private static int fatorial(int nTermos) {
@@ -23,10 +15,20 @@ public class ExCap4Deitel {
         }
         return soma;
     }
-    private static int buscaNumeroDeTermos(String digiteONumeroDeTermos) {
+    private static double termosDeEuler(int termos) {
+        double soma = 0;
+        for (int i = 0 ; i <= termos ; i++){
+            soma +=(1/(double)fatorial(i));
+        }
+        return soma;
+    }
+    private static void imprimeResultadoNaTela(String frase, double termosDeEuler) {
+        System.out.printf("%s %.10f",frase, termosDeEuler);
+    }
+    private static int perguntaAoUsuarioRetornandoInt(String digiteONumeroDeTermos) {
         int termos;
         Scanner entrada = new Scanner(System.in);
-        System.out.printf("Digite o %s :", digiteONumeroDeTermos);
+        System.out.printf("%s :", digiteONumeroDeTermos);
         termos = entrada.nextInt();
         return termos;
     }
