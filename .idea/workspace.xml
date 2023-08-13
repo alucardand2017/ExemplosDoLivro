@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1df3a78-54d1-485d-8e25-4bc7de2de244" name="Changes" comment="Calcula o numero de e^x dando as opções do valor de x e calcular a quantidade de termos para precisao.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExCap4DeitelTest.java" afterDir="false" />
+    <list default="true" id="d1df3a78-54d1-485d-8e25-4bc7de2de244" name="Changes" comment="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExCap4Deitel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExCap4Deitel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExCap4DeitelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExCap4DeitelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691926091415</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler">
+      <created>1691929328917</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691929328917</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao" />
     <MESSAGE value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao (refatorado)" />
     <MESSAGE value="Calcula o numero de e^x dando as opções do valor de x e calcular a quantidade de termos para precisao." />
-    <option name="LAST_COMMIT_MESSAGE" value="Calcula o numero de e^x dando as opções do valor de x e calcular a quantidade de termos para precisao." />
+    <MESSAGE value="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler" />
   </component>
 </project>

@@ -2,13 +2,14 @@ import java.util.Scanner;
 
 public class ExCap4Deitel {
     public static void main(String[] args) {
-
+        //programa princial
         int valorX = perguntaAoUsuarioRetornandoInt("Digite o valor de x: ");
         int termos = perguntaAoUsuarioRetornandoInt("Digite a quantidade de termos para calcular:  ");
         double termosDeEuler = termosDeEuler(valorX, termos);
 
         imprimeResultadoNaTela("valor de eˆx = ", termosDeEuler);
     }
+    //funcao que retorna o fatorial de um numero
     public static int fatorial(int nTermos) {
         int soma = 1;
         for(int i = 0; i < nTermos; i++){
