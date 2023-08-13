@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1df3a78-54d1-485d-8e25-4bc7de2de244" name="Changes" comment="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao (refatorado)">
+    <list default="true" id="d1df3a78-54d1-485d-8e25-4bc7de2de244" name="Changes" comment="Calcula o numero de e^x dando as opções do valor de x e calcular a quantidade de termos para precisao.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExCap4DeitelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExCap4Deitel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExCap4Deitel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ExCap4Deitel">
+  <component name="RunManager" selected="JUnit.ExCap4DeitelTest">
     <configuration name="ExCap3Deitel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExCap3Deitel" />
       <module name="ExemplosDoLivro" />
@@ -54,9 +56,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in ExemplosDoLivro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExemplosDoLivro" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExCap4DeitelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExemplosDoLivro" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExCap4DeitelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExCap4DeitelTest" />
         <item itemvalue="Application.ExCap4Deitel" />
+        <item itemvalue="JUnit.All in ExemplosDoLivro" />
         <item itemvalue="Application.ExCap3Deitel" />
       </list>
     </recent_temporary>
@@ -84,12 +105,20 @@
       <option name="project" value="LOCAL" />
       <updated>1691923898050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Calcula o numero de e^x dando as opções do valor de x e calcular a quantidade de termos para precisao.">
+      <created>1691926091415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691926091415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao" />
     <MESSAGE value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao (refatorado)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao (refatorado)" />
+    <MESSAGE value="Calcula o numero de e^x dando as opções do valor de x e calcular a quantidade de termos para precisao." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calcula o numero de e^x dando as opções do valor de x e calcular a quantidade de termos para precisao." />
   </component>
 </project>

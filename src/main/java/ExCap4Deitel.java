@@ -9,23 +9,23 @@ public class ExCap4Deitel {
 
         imprimeResultadoNaTela("valor de eˆx = ", termosDeEuler);
     }
-    private static int fatorial(int nTermos) {
+    public static int fatorial(int nTermos) {
         int soma = 1;
         for(int i = 0; i < nTermos; i++){
             soma *=  (nTermos - i);
         }
         return soma;
     }
-    private static double termosDeEuler(int x, int termos) {
+    public static double termosDeEuler(int x, int termos) {
         double soma = 0;
         for (int i = 0 ; i <= termos ; i++){
             soma +=(Math.pow(x,i)/(double)fatorial(i));
         }
         return soma;
     }
-    private static void imprimeResultadoNaTela(String frase, double termosDeEuler) {
+    private static void imprimeResultadoNaTela(String frase, double valor) {
 
-        System.out.printf("%s %.10f",frase, termosDeEuler);
+        System.out.printf("%s %.10f",frase, valor);
     }
     private static int perguntaAoUsuarioRetornandoInt(String digiteONumeroDeTermos) {
         int termos;
