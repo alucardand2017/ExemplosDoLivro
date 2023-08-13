@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1df3a78-54d1-485d-8e25-4bc7de2de244" name="Changes" comment="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExCap4DeitelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExCap4DeitelTest.java" afterDir="false" />
+    <list default="true" id="d1df3a78-54d1-485d-8e25-4bc7de2de244" name="Changes" comment="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler atualizado">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExCap4Deitel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExCap4Deitel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ExCap4DeitelTest">
+  <component name="RunManager" selected="Application.ExCap4Deitel">
     <configuration name="ExCap3Deitel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExCap3Deitel" />
       <module name="ExemplosDoLivro" />
@@ -73,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExCap4DeitelTest" />
         <item itemvalue="Application.ExCap4Deitel" />
+        <item itemvalue="JUnit.ExCap4DeitelTest" />
         <item itemvalue="JUnit.All in ExemplosDoLivro" />
         <item itemvalue="Application.ExCap3Deitel" />
       </list>
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691929328917</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler atualizado">
+      <created>1691929949229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691929949229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,6 +131,7 @@
     <MESSAGE value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao (refatorado)" />
     <MESSAGE value="Calcula o numero de e^x dando as opções do valor de x e calcular a quantidade de termos para precisao." />
     <MESSAGE value="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler" />
+    <MESSAGE value="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler atualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando testes na classe ExCap4Deitel para os metodos fatorial e termosEuler atualizado" />
   </component>
 </project>

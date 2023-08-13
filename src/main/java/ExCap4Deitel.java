@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ExCap4Deitel {
     public static void main(String[] args) {
         //programa princial
-        int valorX = perguntaAoUsuarioRetornandoInt("Digite o valor de x: ");
+        int valorX = perguntaAoUsuarioRetornandoInt("*** CALCULA (e^x) *** \nDigite o valor x: ");
         int termos = perguntaAoUsuarioRetornandoInt("Digite a quantidade de termos para calcular:  ");
         double termosDeEuler = termosDeEuler(valorX, termos);
 
