@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1df3a78-54d1-485d-8e25-4bc7de2de244" name="Changes" comment="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao">
+    <list default="true" id="d1df3a78-54d1-485d-8e25-4bc7de2de244" name="Changes" comment="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao (refatorado)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExCap4Deitel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExCap4Deitel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,11 +77,19 @@
       <option name="project" value="LOCAL" />
       <updated>1691923151907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao (refatorado)">
+      <created>1691923898050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691923898050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao" />
+    <MESSAGE value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao (refatorado)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calcula o numero de Euler dando a opção de calcular a quantidade de termos para precisao (refatorado)" />
   </component>
 </project>
