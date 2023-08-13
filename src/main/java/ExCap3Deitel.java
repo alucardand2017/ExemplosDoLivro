@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Principal {
+public class ExCap3Deitel {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int numero1, numero2, soma;
